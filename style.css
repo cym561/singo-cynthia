@@ -5,6 +5,7 @@ body {
     background-image: url(pexels-anete-lusina-5240548.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
 }
 
 .container {
@@ -46,14 +47,49 @@ section {
 section h2 {
     font-size: 24px;
 }
-
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70px;
+}
 .portfolio-item {
     margin-bottom: 30px;
 }
-
-.portfolio-item img {
-    max-width: 100%;
+.about h2{
+    font-size: 29px;
+    
 }
+.img-fluid {
+    max-width: 400px;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 4px;
+}
+
+.btn-branding {
+    background:  #6c63ff;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+  }
+  .icons{
+    max-width: 40px;
+    justify-content: space-between;
+  }
+  
+  .talent{
+    font-size: 48px;
+    color: #712be2;
+ margin-left: 200px;
+   text-shadow: #6c63ff;
+   text-decoration: underline;
+   
+  }
 
 footer {
     background-color: #333;
